@@ -1,0 +1,164 @@
+{
+    "banana-bread": {
+        "name": "banana bread",
+        "author": "julie",
+        "categories": ["bread", "brunch", "dessert"],
+        "image": "bananabread.jpg",
+        "ingredients": [
+            {
+                "quantity": 0.333,
+                "unit": "c",
+                "food": "butter"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 2,
+                "food": "eggs"
+            },
+            {
+                "quantity": 1.75,
+                "unit": "c",
+                "food": "flour"
+            },
+            {
+                "quantity": 1,
+                "unit": "t",
+                "food": "baking powder"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "t",
+                "food": "baking soda"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "banana", 
+                "style": "mashed"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "walnuts / chocolate chips", 
+                "style": "chopped"
+            }
+        ],
+        "instructions": [
+            "Cream together butter and sugar",
+            "Add eggs and beat well", 
+            "Combine dry ingredients in a separate bowl", 
+            "Alternate adding portions of the dry ingredient mixture and mashed bananas, blending well after each addition",
+            "Stir in nuts or chocolate chips",
+            "Pour into greased 9x5x3 loaf pan",
+            "Bake at 350° F for 45-50 minutes",
+            "Cool and serve"
+        ],
+        "temp": "350",
+        "cooktime": "25"
+    },
+    "artichoke-dip": {
+        "name": "artichoke dip",
+        "author": "julie",
+        "categories": ["appetizer", "dip", "cheese"],
+        "image": "artichokedip.jpg",
+        "ingredients": [
+            {
+                "quantity": 16,
+                "unit": "oz",
+                "food": "artichoke hearts",
+                "style": "finely chopped"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "mozzarella cheese",
+                "style": "shredded"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "parmesan cheese",
+                "style": "shredded"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "swiss cheese",
+                "style": "shredded"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "green chilies",
+                "style": "chopped"
+            },
+            {
+                "quantity": 2,
+                "unit": "c",
+                "food": "mayonnaise"
+            },
+            {
+                "food": "garlic",
+                "style": "minced"
+            }
+        ],
+        "instructions": [
+            "Combine ingredients in a large mixing bowl",
+            "Transfer to a pie dish and bake until golden brown"
+        ],
+        "temp": "350",
+        "cooktime": "25"
+    },
+    "cheese-ball": {
+        "name": "cheese ball",
+        "categories": ["appetizer", "cheese"],
+        "image": "cheeseball.jpg",
+        "ingredients": [
+            {
+                "quantity": 0.5,
+                "unit": "lb",
+                "food": "sharp cheddar",
+                "style": "grated"
+            },
+            {
+                "quantity": 2,
+                "unit": "packages",
+                "food": "cream cheese"
+            },
+            {
+                "quantity": 2,
+                "unit": "t",
+                "food": "worcestershire sauce"
+            },
+            {
+                "quantity": 2,
+                "unit": "cloves",
+                "food": "garlic",
+                "style": "chopped"
+            }, 
+            {
+                "quantity": 2,
+                "unit": "t",
+                "food": "onions",
+                "style": "grated"
+            }, 
+            {
+                "food": "parsley",
+                "style": "flakes"
+            },
+            {
+                "food": "mixed nuts",
+                "style": "chopped"
+            }
+        ],
+        "instructions": [
+            "Combine all ingredients except for the nuts and place in the refrigerator for several hours",
+            "Once chilled, shape it into a ball and roll it in the chopped nuts",
+            "Chill again and serve with crisp crackers"
+        ]
+    }
+}
