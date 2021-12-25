@@ -17,7 +17,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
 
 #menu {
@@ -37,7 +37,14 @@ a {
 }
 
 #content {
-    padding-top: 60px;
+    padding-top: 110px;
+}
+
+#subtitle {
+    text-align: center;
+    font-family: var(--script);
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 #blurb {
@@ -107,19 +114,23 @@ a {
     transition: opacity .5s;
 }
 
-.button {
-    width: 200px;
+.allRecipes {
+    width: 300px;
     height: 100px;
-    background-color: var(--cream);
+    margin: auto;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    margin: auto;
-    color: black;
-    border: solid black 2px;
+    font-family: var(--script);
+    font-size: 30px;
+    background-color: var(--cream);
+    border-radius: 20px;
+    border: solid var(--black) 5px;
+    transition: background-color 1s;
 }
 
-.button:hover {
-    opacity: 0.5;
+.allRecipes:hover {
+    background-color: transparent;
+    transition: background-color 1s;
 }
