@@ -2,7 +2,7 @@
     --cream: #fffcf1;
     --black: #222;
     --script: 'Sacramento', cursive;
-    --plain: 'mulish', serif;
+    --plain: 'Varela Round', sans-serif;
 }
 
 html {
@@ -22,39 +22,34 @@ a {
 
 #menu {
     width: 100%;
+    height: 30px;
     margin: auto;
-    padding-top: 22px;
+    padding-top: 20px;
     padding-bottom: 10px;
     background: var(--cream);
     text-align: center;
     font-family: var(--script);
-    font-size: 50px;
+    font-size: 30px;
     box-shadow: 0px 0px 20px 0px#555;
     position: fixed;
     top: 0;
     z-index: 1000;
 }
 
-#menu h1 {
-    font-size: clamp(20px, 7vw, 50px);
-}
-
 #content {
-    padding-top: 82px;
+    padding-top: 60px;
 }
 
 #blurb {
-    background: var(--cream);
-    width: clamp(300px, 50%, 700px);
+    width: clamp(200px, 70%, 500px);
     margin: auto;
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 50px;
     margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 0px #666;
+    margin-bottom: 40px;
+    font-family: var(--script);
+    font-size: 25px
 }
 
 #categories {
@@ -72,18 +67,19 @@ a {
     justify-content: center;
     text-align: center;
     height: 200px;
-    width: 200px;
     border-radius: 20px;
-    margin: 10px;
-    width: clamp(300px, 30%, 500px);
+    margin: 8px;
+    width: clamp(150px, 30vw, 300px);
+    height: clamp(150px, 30vw, 300px);
     font-size: 35px;
-    font-family: var(--script);
+    font-size: clamp(20px, 3vw, 35px);
+    font-family: var(--plain);
     background-size: cover;
     position: relative;
     background-position: center;
     color: white;
     text-shadow: 0px 0px 5px black;
-    box-shadow: 0px 0px 3px 0px #666;
+    box-shadow: 0px 0px 5px 0px #333;
 }
 
 .contentBox:before {
@@ -103,7 +99,7 @@ a {
 .contentBox h3 {
     position: relative;
     padding: 20px;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 .contentBox:hover::before {

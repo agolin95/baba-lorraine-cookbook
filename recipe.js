@@ -45,13 +45,13 @@ function appendOven(recipe) {
 function appendGuide(recipe) {
     $('#recipe').append(`
         <div class="panels">
-            <div class="panel">
+            <div class="panel ingredients">
                 <h3>Ingredients</h3>
-                <ul class="ingredients"></ul>
+                <ul></ul>
             </div>
-            <div class="panel">
+            <div class="panel instructions">
                 <h3>Instructions</h3>
-                <ol class="instructions"></ul>
+                <ol></ol>
             </div>
         </div>
     `
