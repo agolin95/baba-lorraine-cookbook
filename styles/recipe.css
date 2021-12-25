@@ -98,8 +98,12 @@
     list-style: upper-roman;
 }
 
-.panel li {
+.ingredients li {
     margin: 5px;
+}
+
+.instructions li {
+    margin: 30px;
 }
 
 .quantity, .unit {

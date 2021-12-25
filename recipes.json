@@ -2,7 +2,9 @@
     "xxxxxx": {
         "name": "xxxxxx",
         "author": "xxxxxx",
-        "categories": ["xxxxxx"],
+        "categories": [
+            "xxxxxx"
+        ],
         "image": "xxxxxx.jpg",
         "ingredients": [
             {
@@ -33,7 +35,10 @@
     "banana-bread": {
         "name": "banana bread",
         "author": "julie",
-        "categories": ["brunch", "dessert"],
+        "categories": [
+            "brunch",
+            "dessert"
+        ],
         "image": "bananabread.jpg",
         "ingredients": [
             {
@@ -68,20 +73,20 @@
             {
                 "quantity": 1,
                 "unit": "c",
-                "food": "banana", 
+                "food": "banana",
                 "style": "mashed"
             },
             {
                 "quantity": 0.5,
                 "unit": "c",
-                "food": "walnuts / chocolate chips", 
+                "food": "walnuts / chocolate chips",
                 "style": "optional"
             }
         ],
         "instructions": [
             "Cream together butter and sugar",
-            "Add eggs and beat well", 
-            "Combine dry ingredients in a separate bowl", 
+            "Add eggs and beat well",
+            "Combine dry ingredients in a separate bowl",
             "Alternate adding portions of the dry ingredient mixture and mashed bananas, blending well after each addition",
             "Stir in nuts or chocolate chips",
             "Pour into greased 9x5x3 loaf pan",
@@ -94,7 +99,11 @@
     "bread-pudding": {
         "name": "bread pudding",
         "author": "grandma smith",
-        "categories": ["bread", "brunch", "dessert"],
+        "categories": [
+            "bread",
+            "brunch",
+            "dessert"
+        ],
         "image": "breadpudding.jpg",
         "ingredients": [
             {
@@ -144,7 +153,10 @@
     },
     "corn-meal-muffins": {
         "name": "corn meal muffins",
-        "categories": ["brunch", "bread"],
+        "categories": [
+            "brunch",
+            "bread"
+        ],
         "image": "cornmealmuffins.jpg",
         "ingredients": [
             {
@@ -199,7 +211,9 @@
     "oven-french-toast": {
         "name": "oven french toast",
         "author": "Lorraine",
-        "categories": ["brunch"],
+        "categories": [
+            "brunch"
+        ],
         "image": "ovenfrenchtoast.jpg",
         "ingredients": [
             {
@@ -243,7 +257,11 @@
     "overnight-cheese-omelet": {
         "name": "overnight cheese omelet",
         "author": "lorraine",
-        "categories": ["brunch", "cheese", "eggs"],
+        "categories": [
+            "brunch",
+            "cheese",
+            "eggs"
+        ],
         "image": "overnightcheeseomelet.jpg",
         "ingredients": [
             {
@@ -287,221 +305,339 @@
         "temp": "325",
         "cooktime": "60"
     },
-    "andys-pascha": {
-        "name": "andy's pascha",
-        "author": "andy",
-        "categories": ["bread"],
-        "image": "pascha1.jpg",
+    "potato-pancakes": {
+        "name": "potato pancakes",
+        "author": "baba",
+        "categories": [
+            "potatoes", "brunch"
+        ],
+        "image": "potatopancakes.jpg",
         "ingredients": [
             {
-                "quantity": 6,
-                "unit": "c",
-                "food": "flour",
-                "style": "sifted"
+                "food": "potatoes",
+                "style": "grated"
             },
             {
-                "quantity": 0.5,
-                "unit": "c",
-                "food": "sugar"
-            },
-            {
-                "quantity": 1,
-                "unit": "T",
                 "food": "salt"
             },
             {
-                "quantity": 2,
-                "unit": "packets",
-                "food": "rapid rise yeast"
+                "food": "pepper"
             },
             {
                 "quantity": 2,
                 "food": "eggs"
             },
             {
-                "quantity": 2,
-                "food": "egg whites"
-            },
-            {
-                "quantity": 1,
-                "unit": "stick",
-                "food": "butter",
-                "style": "melted"
-            },
-            {
-                "quantity": 0.5,
-                "unit": "c",
-                "food": "sour cream"
-            },
-            {
-                "quantity": 0.25,
-                "unit": "c",
-                "food": "oil"
-            },
-            {
-                "quantity": 2.5,
-                "unit": "c",
-                "food": "milk",
-                "style": "scalded"
+                "food": "flour"
             }
         ],
         "instructions": [
-            "Combine dry ingredients in a bowl",
-            "Add eggs to dry mixture and mix on medium for 2 minutes, then on high for 2 minutes",
-            "Add flour until it is sticky, but comes away from the bowl",
-            "Let raise",
-            "Brush egg whites and water on bread before baking",
-            "Bake at 350° F for 30 minutes"
-        ],
-        "temp": "350",
-        "cooktime": "30"
+            "Mix ingredients",
+            "Pour like pancakes and fry",
+            "Server with sour cream"
+        ]
     },
-    "babas-paska": {
-        "name": "baba's paska",
-        "author": "baba",
-        "categories": ["bread"],
-        "image": "pascha2.jpg",
+    "quiche-lorraine": {
+        "name": "quiche lorraine",
+        "categories": [
+            "eggs", "brunch"
+        ],
+        "image": "quichelorraine.jpg",
         "ingredients": [
             {
-                "quantity": 4,
-                "unit": "packets",
-                "food": "yeast"
+                "quantity": 1,
+                "food": "9 inch pie crust"
+            },
+            {
+                "quantity": 12,
+                "unit": "slices",
+                "food": "bacon",
+                "style": "crisp and crumbled"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "swiss cheese",
+                "style": "shredded"
             },
             {
                 "quantity": 2,
                 "unit": "c",
-                "food": "water",
-                "style": "warm"
-            },
-            {
-                "quantity": 2,
-                "unit": "T",
-                "food": "sugar"
-            },
-            {
-                "quantity": 5.25,
-                "unit": "lb",
-                "food": "flour"
+                "food": "whipping cream"
             },
             {
                 "quantity": 0.75,
-                "unit": "c",
-                "food": "butter",
-                "style": "melted"
+                "unit": "t",
+                "food": "salt"
             },
             {
-                "quantity": 1,
-                "unit": "c",
+                "quantity": 0.25,
+                "unit": "t",
                 "food": "sugar"
             },
             {
+                "quantity": 0.125,
+                "unit": "t",
+                "food": "cayenne pepper"
+            },
+            {
+                "food": "eggs"
+            }
+        ],
+        "instructions": [
+            "Combine ingredients and bake at 425°"
+        ],
+        "temp": "425",
+        "cooktime": "???"
+    },
+    "sausage-egg-bake": {
+        "name": "sausage egg bake",
+        "author": "lorraine",
+        "categories": [
+            "eggs", "brunch", "cheese"
+        ],
+        "image": "sausageeggbake.jpg",
+        "ingredients": [
+            {
                 "quantity": 1,
-                "unit": "qt",
+                "unit": "lb",
+                "food": "Bob Evans Roll Sausage"
+            },
+            {
+                "quantity": 2,
+                "unit": "slices",
+                "food": "white bread",
+                "style": "cubed"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "shar cheddar cheese",
+                "style": "shredded"
+            },
+            {
+                "quantity": 6,
+                "food": "eggs"
+            },
+            {
+                "quantity": 2,
+                "unit": "c",
                 "food": "milk"
             },
             {
                 "quantity": 0.5,
-                "unit": "pt",
-                "food": "sour cream"
+                "unit": "t",
+                "food": "salt"
             },
             {
-                "food": "salt"
+                "quantity": 0.5,
+                "unit": "t",
+                "food": "dry mustard"
             }
         ],
         "instructions": [
-            "Mix yeast and sugar in warm water, 4 packets and 2T to 1 cup",
-            "Once dissolved, add a cup of water and cup of flour per 4 packets of yeast",
-            "Mix this real loose and let it raise until spongy, about 2-3 hours, until bubbly",
-            "After this raises, add the remaining ingredients to the mixture",
-            "Mix this good. If it feels loose, add a handful of flour until it doesn't stick to hands",
-            "Punch down and raise again",
-            "Cut it and put in pan and let raise again",
-            "Bake at 350° F for 30 minutes"
+            "Crumble sausage in a medium skillet and cook over medium heat until brown, stirring occasionally - drain well",
+            "Spread bread cubes in a buttered 12 x 8 x 2 inch baking dish",
+            "Top with sausage and cheese",
+            "Combine eggs, milk, and seasoning and beat well",
+            "Pour egg mixture over the bread, sausage, and cheese",
+            "Cover and refrigerate overnight",
+            "Bake at 350° F for 30-40 minutes or until set"
         ],
         "temp": "350",
-        "cooktime": "30"
+        "cooktime": "30-40"
     },
-    "lorraines-paska": {
-        "name": "lorraine's paska",
+    "scones": {
+        "name": "scones",
         "author": "lorraine",
-        "categories": ["bread"],
-        "image": "pascha3.jpg",
+        "categories": [
+            "brunch", "bread", "dessert"
+        ],
+        "image": "scones.jpg",
+        "quantity": "about 6 scones",
         "ingredients": [
             {
-                "quantity": 5,
-                "unit": "c",
-                "food": "milk",
-                "style": "scalded"
-            },
-            {
-                "quantity": 1.5,
-                "unit": "c",
-                "food": "sugar"
-            },
-            {
-                "quantity": 2,
-                "unit": "sticks",
-                "food": "butter",
-                "style": "melted"
-            },
-            {
-                "quantity": 12,
+                "quantity": 3,
                 "unit": "c",
                 "food": "flour"
             },
             {
-                "quantity": 1,
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 3,
+                "unit": "t",
+                "food": "backing powder"
+            },
+            {
+                "quantity": 0.666,
+                "unit": "c",
+                "food": "crisco"
+            },
+            {
+                "quantity": 0.5,
                 "unit": "t",
                 "food": "salt"
             },
             {
                 "quantity": 1,
-                "unit": "c",
-                "food": "sour cream"
-            },
-            {
-                "quantity": 0.5,
-                "unit": "c",
-                "food": "oil"
-            },
-            {
-                "quantity": 3,
-                "unit": "packets",
-                "food": "yeast"
-            },
-            {
-                "quantity": 0.5,
-                "unit": "c",
-                "food": "water",
-                "style": "lukewarm"
-            },
-            {
-                "quantity": 1,
-                "unit": "T",
-                "food": "sugar"
-            },
-            {
-                "quantity": 6,
-                "food": "egg yolks",
+                "food": "egg",
                 "style": "beaten"
             },
             {
+                "quantity": 0.75,
+                "unit": "c",
+                "food": "milk"
+            }
+        ],
+        "instructions": [
+            "Crumble as for pie crust",
+            "Add beaten egg and milk",
+            "Plop on cookie sheet",
+            "Bake at 350° F for 20 minutes"
+        ],
+        "temp": "350",
+        "cooktime": "20"
+    },
+    "waffles": {
+        "name": "waffles",
+        "author": "lorraine",
+        "categories": [
+            "brunch"
+        ],
+        "image": "waffles.jpg",
+        "ingredients": [
+            {
                 "quantity": 1.5,
                 "unit": "c",
-                "food": "light raisins",
+                "food": "flour"
+            },
+            {
+                "quantity": 2,
+                "unit": "t",
+                "food": "sugar"
+            },
+            {
+                "quantity": 3,
+                "unit": "t",
+                "food": "baking powder"
+            },
+            {
+                "food": "salt"
+            },
+            {
+                "quantity": 2,
+                "food": "eggs"
+            },
+            {
+                "quantity": 3,
+                "unit": "T",
+                "food": "butter or oil"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "milk"
+            }
+        ],
+        "instructions": [
+            "Combine ingredients and pour into waffle iron."
+        ]
+    },
+    "zucchini-bread": {
+        "name": "zucchini bread",
+        "author": "julie",
+        "categories": [
+            "bread", "brunch", "dessert"
+        ],
+        "image": "zucchinibread.jpg",
+        "ingredients": [
+            {
+                "quantity": 4,
+                "food": "eggs"
+            },
+            {
+                "quantity": 2,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "vegetable oil"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "t",
+                "food": "baking soda"
+            },
+            {
+                "quantity": 3.5,
+                "unit": "c",
+                "food": "flour",
+                "style": "unsifted"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "t",
+                "food": "salt"
+            },
+            {
+                "quantity": 1,
+                "unit": "t",
+                "food": "cinnamon"
+            },
+            {
+                "quantity": 0.75,
+                "unit": "t",
+                "food": "baking powder"
+            },
+            {
+                "quantity": 2,
+                "unit": "c",
+                "food": "zucchini",
+                "style": "grated"
+            },
+            {
+                "quantity": 1,
+                "unit": "t",
+                "food": "vanilla"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "raisins",
+                "style": "optional"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "walnuts",
                 "style": "optional"
             }
         ],
         "instructions": [
-            "Dissolve yeast and sugar in"
+            "Beat eggs and add in sugar, then oil",
+            "Combine dry ingredients and add to egg mixture alternately with zucchini",
+            "Stir in vanilla and raisins and/or walnuts if desired",
+            "Pour into two lightly greased and floured loaf pans",
+            "Bake on lowest rack at 350° F for 55 minutes until loaves test done",
+            "Let stand 10 minutes before removing from pan onto wire rack"
+            
         ],
-        "temp": "xxxxxx",
-        "cooktime": "xxxxxx"
+        "temp": "350",
+        "cooktime": "55"
     },
     "artichoke-dip": {
         "name": "artichoke dip",
         "author": "julie",
-        "categories": ["appetizer", "dip", "cheese"],
+        "categories": [
+            "appetizer",
+            "dip",
+            "cheese"
+        ],
         "image": "artichokedip.jpg",
         "ingredients": [
             {
@@ -553,7 +689,10 @@
     },
     "cheese-ball": {
         "name": "cheese ball",
-        "categories": ["appetizer", "cheese"],
+        "categories": [
+            "appetizer",
+            "cheese"
+        ],
         "image": "cheeseball.jpg",
         "ingredients": [
             {
@@ -577,13 +716,13 @@
                 "unit": "cloves",
                 "food": "garlic",
                 "style": "chopped"
-            }, 
+            },
             {
                 "quantity": 2,
                 "unit": "t",
                 "food": "onions",
                 "style": "grated"
-            }, 
+            },
             {
                 "food": "parsley",
                 "style": "flakes"
