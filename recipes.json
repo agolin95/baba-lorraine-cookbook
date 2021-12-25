@@ -1,8 +1,39 @@
 {
+    "xxxxxx": {
+        "name": "xxxxxx",
+        "author": "xxxxxx",
+        "categories": ["xxxxxx"],
+        "image": "xxxxxx.jpg",
+        "ingredients": [
+            {
+                "quantity": 66666,
+                "unit": "xxxxxx",
+                "food": "xxxxxx",
+                "style": "xxxxxx"
+            },
+            {
+                "quantity": 66666,
+                "unit": "xxxxxx",
+                "food": "xxxxxx",
+                "style": "xxxxxx"
+            },
+            {
+                "quantity": 66666,
+                "unit": "xxxxxx",
+                "food": "xxxxxx",
+                "style": "xxxxxx"
+            }
+        ],
+        "instructions": [
+            "xxxxxx"
+        ],
+        "temp": "xxxxxx",
+        "cooktime": "xxxxxx"
+    },
     "banana-bread": {
         "name": "banana bread",
         "author": "julie",
-        "categories": ["bread", "brunch", "dessert"],
+        "categories": ["brunch", "dessert"],
         "image": "bananabread.jpg",
         "ingredients": [
             {
@@ -44,7 +75,7 @@
                 "quantity": 0.5,
                 "unit": "c",
                 "food": "walnuts / chocolate chips", 
-                "style": "chopped"
+                "style": "optional"
             }
         ],
         "instructions": [
@@ -58,7 +89,414 @@
             "Cool and serve"
         ],
         "temp": "350",
-        "cooktime": "25"
+        "cooktime": "45-50"
+    },
+    "bread-pudding": {
+        "name": "bread pudding",
+        "author": "grandma smith",
+        "categories": ["bread", "brunch", "dessert"],
+        "image": "breadpudding.jpg",
+        "ingredients": [
+            {
+                "quantity": 2.5,
+                "unit": "c",
+                "food": "bread crumbs"
+            },
+            {
+                "quantity": 1,
+                "unit": "qt",
+                "food": "milk"
+            },
+            {
+                "quantity": 2,
+                "food": "eggs",
+                "style": "beaten"
+            },
+            {
+                "quantity": 0.333,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "c",
+                "food": "butter",
+                "style": "melted"
+            },
+            {
+                "quantity": 1,
+                "unit": "t",
+                "food": "vanilla"
+            },
+            {
+                "quantity": 1,
+                "unit": "pinch",
+                "food": "salt"
+            }
+        ],
+        "instructions": [
+            "Scald the milk and pour it over the breadcrumbs",
+            "Let stand until cool",
+            "Bake at 325° F for 45 minutes "
+        ],
+        "temp": "325",
+        "cooktime": "45"
+    },
+    "corn-meal-muffins": {
+        "name": "corn meal muffins",
+        "categories": ["brunch", "bread"],
+        "image": "cornmealmuffins.jpg",
+        "ingredients": [
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 1,
+                "food": "egg"
+            },
+            {
+                "quantity": 1,
+                "unit": "T",
+                "food": "butter",
+                "style": "melted"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "milk"
+            },
+            {
+                "quantity": 1,
+                "unit": "pinch",
+                "food": "salt"
+            },
+            {
+                "quantity": 2,
+                "unit": "T",
+                "food": "baking powder"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "flour"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "corn meal"
+            }
+        ],
+        "instructions": [
+            "Mix ingredients",
+            "Pour into greased muffin tin",
+            "Bake at 350° F until toothpick test is clean"
+        ],
+        "temp": "350",
+        "cooktime": "???"
+    },
+    "oven-french-toast": {
+        "name": "oven french toast",
+        "author": "Lorraine",
+        "categories": ["brunch"],
+        "image": "ovenfrenchtoast.jpg",
+        "ingredients": [
+            {
+                "quantity": 10,
+                "unit": "slices",
+                "food": "french or italian bread"
+            },
+            {
+                "quantity": 4,
+                "food": "eggs"
+            },
+            {
+                "food": "milk"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "c",
+                "food": "butter",
+                "style": "melted"
+            },
+            {
+                "food": "cinnamon"
+            },
+            {
+                "food": "brown sugar"
+            },
+            {
+                "food": "pecans",
+                "style": "chopped"
+            }
+        ],
+        "instructions": [
+            "Dip bread in egg and milk mixture and soak well",
+            "Place in baking dish, packing bread close together",
+            "Top with crumbled mixture of butter, cinnamon, brown sugar, and pecans",
+            "Bake at 350° F for 20-30 minutes"
+        ],
+        "temp": "350",
+        "cooktime": "20-30"
+    },
+    "overnight-cheese-omelet": {
+        "name": "overnight cheese omelet",
+        "author": "lorraine",
+        "categories": ["brunch", "cheese", "eggs"],
+        "image": "overnightcheeseomelet.jpg",
+        "ingredients": [
+            {
+                "quantity": 5,
+                "unit": "slices",
+                "food": "bread",
+                "style": "decrusted, buttered, & cubed"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "lb",
+                "food": "cheddar cheese",
+                "style": "shredded"
+            },
+            {
+                "quantity": 3,
+                "food": "eggs"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "t",
+                "food": "salt"
+            },
+            {
+                "quantity": 1,
+                "unit": "dash",
+                "food": "pepper"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "c",
+                "food": "milk"
+            }
+        ],
+        "instructions": [
+            "Beat eggs and milk together",
+            "Pour over bread cubes",
+            "Let stand in refrigerator overnight",
+            "Bake at 325° for 1 hour"
+        ],
+        "temp": "325",
+        "cooktime": "60"
+    },
+    "andys-pascha": {
+        "name": "andy's pascha",
+        "author": "andy",
+        "categories": ["bread"],
+        "image": "pascha1.jpg",
+        "ingredients": [
+            {
+                "quantity": 6,
+                "unit": "c",
+                "food": "flour",
+                "style": "sifted"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 1,
+                "unit": "T",
+                "food": "salt"
+            },
+            {
+                "quantity": 2,
+                "unit": "packets",
+                "food": "rapid rise yeast"
+            },
+            {
+                "quantity": 2,
+                "food": "eggs"
+            },
+            {
+                "quantity": 2,
+                "food": "egg whites"
+            },
+            {
+                "quantity": 1,
+                "unit": "stick",
+                "food": "butter",
+                "style": "melted"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "sour cream"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "c",
+                "food": "oil"
+            },
+            {
+                "quantity": 2.5,
+                "unit": "c",
+                "food": "milk",
+                "style": "scalded"
+            }
+        ],
+        "instructions": [
+            "Combine dry ingredients in a bowl",
+            "Add eggs to dry mixture and mix on medium for 2 minutes, then on high for 2 minutes",
+            "Add flour until it is sticky, but comes away from the bowl",
+            "Let raise",
+            "Brush egg whites and water on bread before baking",
+            "Bake at 350° F for 30 minutes"
+        ],
+        "temp": "350",
+        "cooktime": "30"
+    },
+    "babas-paska": {
+        "name": "baba's paska",
+        "author": "baba",
+        "categories": ["bread"],
+        "image": "pascha2.jpg",
+        "ingredients": [
+            {
+                "quantity": 4,
+                "unit": "packets",
+                "food": "yeast"
+            },
+            {
+                "quantity": 2,
+                "unit": "c",
+                "food": "water",
+                "style": "warm"
+            },
+            {
+                "quantity": 2,
+                "unit": "T",
+                "food": "sugar"
+            },
+            {
+                "quantity": 5.25,
+                "unit": "lb",
+                "food": "flour"
+            },
+            {
+                "quantity": 0.75,
+                "unit": "c",
+                "food": "butter",
+                "style": "melted"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 1,
+                "unit": "qt",
+                "food": "milk"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "pt",
+                "food": "sour cream"
+            },
+            {
+                "food": "salt"
+            }
+        ],
+        "instructions": [
+            "Mix yeast and sugar in warm water, 4 packets and 2T to 1 cup",
+            "Once dissolved, add a cup of water and cup of flour per 4 packets of yeast",
+            "Mix this real loose and let it raise until spongy, about 2-3 hours, until bubbly",
+            "After this raises, add the remaining ingredients to the mixture",
+            "Mix this good. If it feels loose, add a handful of flour until it doesn't stick to hands",
+            "Punch down and raise again",
+            "Cut it and put in pan and let raise again",
+            "Bake at 350° F for 30 minutes"
+        ],
+        "temp": "350",
+        "cooktime": "30"
+    },
+    "lorraines-paska": {
+        "name": "lorraine's paska",
+        "author": "lorraine",
+        "categories": ["bread"],
+        "image": "pascha3.jpg",
+        "ingredients": [
+            {
+                "quantity": 5,
+                "unit": "c",
+                "food": "milk",
+                "style": "scalded"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 2,
+                "unit": "sticks",
+                "food": "butter",
+                "style": "melted"
+            },
+            {
+                "quantity": 12,
+                "unit": "c",
+                "food": "flour"
+            },
+            {
+                "quantity": 1,
+                "unit": "t",
+                "food": "salt"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "sour cream"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "oil"
+            },
+            {
+                "quantity": 3,
+                "unit": "packets",
+                "food": "yeast"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "water",
+                "style": "lukewarm"
+            },
+            {
+                "quantity": 1,
+                "unit": "T",
+                "food": "sugar"
+            },
+            {
+                "quantity": 6,
+                "food": "egg yolks",
+                "style": "beaten"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "c",
+                "food": "light raisins",
+                "style": "optional"
+            }
+        ],
+        "instructions": [
+            "Dissolve yeast and sugar in"
+        ],
+        "temp": "xxxxxx",
+        "cooktime": "xxxxxx"
     },
     "artichoke-dip": {
         "name": "artichoke dip",
@@ -108,7 +546,7 @@
         ],
         "instructions": [
             "Combine ingredients in a large mixing bowl",
-            "Transfer to a pie dish and bake until golden brown"
+            "Transfer to a pie dish and bake at 350° for 25 minutes until golden brown"
         ],
         "temp": "350",
         "cooktime": "25"

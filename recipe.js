@@ -29,11 +29,11 @@ function appendOven(recipe) {
         $('#recipe').append(`
             <div class="oven">
                 <div class="temp">
-                    <img src="/img/oven.png"
+                    <img src="/img/icons/oven.png"
                     <h3>${recipe.temp}° F</h3>
                 </div>
                 <div class="time">
-                    <img src="/img/clock.png"
+                    <img src="/img/icons/clock.png"
                     <h3>${recipe.cooktime} Min</h3>
                 </div>
             </div>
@@ -64,12 +64,20 @@ function appendIngredients(ingredients) {
     ingredients.forEach(function(ingredient){
         let str = '<li>'
         let quant = ''
+        let unit = '<span class="unit"></span> '
         if (ingredient.quantity != undefined) {
             quant = `<span class="quantity">${ingredient.quantity}</span>`
+        } 
+        else {
+            unit = ''
         }
-        let unit = ''
         if (ingredient.unit != undefined) {
-            unit = `<span class="unit">${ingredient.unit}</span> `
+            if (ingredient.unit.length > 3) {
+                unit = `<span class="unit"> ${ingredient.unit}</span> `
+            }
+            else {
+                unit = `<span class="unit">${ingredient.unit}</span> `
+            }
         }
         let food = `<span class="food">${toTitleCase(ingredient.food)}</span>`
         let style = ''

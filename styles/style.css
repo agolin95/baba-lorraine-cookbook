@@ -32,6 +32,11 @@ a {
     box-shadow: 0px 0px 20px 0px#555;
     position: fixed;
     top: 0;
+    z-index: 1000;
+}
+
+#menu h1 {
+    font-size: clamp(20px, 7vw, 50px);
 }
 
 #content {
@@ -65,6 +70,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     height: 200px;
     width: 200px;
     border-radius: 20px;
@@ -77,7 +83,7 @@ a {
     background-position: center;
     color: white;
     text-shadow: 0px 0px 5px black;
-    box-shadow: 0px 2px 5px 0px #666;
+    box-shadow: 0px 0px 3px 0px #666;
 }
 
 .contentBox:before {
@@ -88,7 +94,7 @@ a {
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.3;
     background-color: black;
     border-radius: 20px;
     transition: opacity .5s;
@@ -96,6 +102,8 @@ a {
 
 .contentBox h3 {
     position: relative;
+    padding: 20px;
+    line-height: 50px;
 }
 
 .contentBox:hover::before {
