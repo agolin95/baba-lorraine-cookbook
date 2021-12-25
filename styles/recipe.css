@@ -36,7 +36,8 @@
     justify-content: space-around;
     width: 300px;
     margin: auto;
-    margin-top: 20px
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .temp, .time {
@@ -77,6 +78,7 @@
 
 .ingredients {
     width: calc(40% - 120px);
+    line-height: 25px;
 }
 
 .instructions {
@@ -97,7 +99,7 @@
 }
 
 .panel li {
-    padding: 10px;
+    margin: 5px;
 }
 
 .quantity, .unit {
