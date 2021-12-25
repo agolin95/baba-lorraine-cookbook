@@ -38,6 +38,7 @@ a {
 
 #content {
     padding-top: 110px;
+    padding-bottom: 70px;
 }
 
 #subtitle {
@@ -53,7 +54,6 @@ a {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
     margin-bottom: 40px;
     font-family: var(--script);
     font-size: 25px
