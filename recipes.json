@@ -32,6 +32,47 @@
         "temp": "xxxxxx",
         "cooktime": "xxxxxx"
     },
+    "watergate-salad": {
+        "name": "watergate salad",
+        "author": "julie",
+        "categories": [
+            "dessert"
+        ],
+        "image": "watergatesalad.jpg",
+        "ingredients": [
+            {
+                "quantity": 1,
+                "unit": "box",
+                "food": "pistachio pudding jello"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "c",
+                "food": "cool whip"
+            },
+            {
+                "quantity": 20,
+                "unit": "oz",
+                "food": "pineapple",
+                "style": "crushed"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "pecans",
+                "style": "chopped"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "mini marshmallows"
+            }
+        ],
+        "instructions": [
+            "Combine ingredients",
+            "Refrigerate for an hour"
+        ]
+    },
     "banana-bread": {
         "name": "banana bread",
         "author": "julie",
@@ -309,7 +350,8 @@
         "name": "potato pancakes",
         "author": "baba",
         "categories": [
-            "potatoes", "brunch"
+            "potatoes",
+            "brunch"
         ],
         "image": "potatopancakes.jpg",
         "ingredients": [
@@ -340,7 +382,8 @@
     "quiche-lorraine": {
         "name": "quiche lorraine",
         "categories": [
-            "eggs", "brunch"
+            "eggs",
+            "brunch"
         ],
         "image": "quichelorraine.jpg",
         "ingredients": [
@@ -394,7 +437,9 @@
         "name": "sausage egg bake",
         "author": "lorraine",
         "categories": [
-            "eggs", "brunch", "cheese"
+            "eggs",
+            "brunch",
+            "cheese"
         ],
         "image": "sausageeggbake.jpg",
         "ingredients": [
@@ -451,7 +496,9 @@
         "name": "scones",
         "author": "lorraine",
         "categories": [
-            "brunch", "bread", "dessert"
+            "brunch",
+            "bread",
+            "dessert"
         ],
         "image": "scones.jpg",
         "quantity": "about 6 scones",
@@ -550,7 +597,9 @@
         "name": "zucchini bread",
         "author": "julie",
         "categories": [
-            "bread", "brunch", "dessert"
+            "bread",
+            "brunch",
+            "dessert"
         ],
         "image": "zucchinibread.jpg",
         "ingredients": [
@@ -625,7 +674,6 @@
             "Pour into two lightly greased and floured loaf pans",
             "Bake on lowest rack at 350° F for 55 minutes until loaves test done",
             "Let stand 10 minutes before removing from pan onto wire rack"
-            
         ],
         "temp": "350",
         "cooktime": "55"
