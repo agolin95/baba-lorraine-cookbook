@@ -1,37 +1,4 @@
 {
-    "xxxxxx": {
-        "name": "xxxxxx",
-        "author": "xxxxxx",
-        "categories": [
-            "xxxxxx"
-        ],
-        "image": "xxxxxx.jpg",
-        "ingredients": [
-            {
-                "quantity": 66666,
-                "unit": "xxxxxx",
-                "food": "xxxxxx",
-                "style": "xxxxxx"
-            },
-            {
-                "quantity": 66666,
-                "unit": "xxxxxx",
-                "food": "xxxxxx",
-                "style": "xxxxxx"
-            },
-            {
-                "quantity": 66666,
-                "unit": "xxxxxx",
-                "food": "xxxxxx",
-                "style": "xxxxxx"
-            }
-        ],
-        "instructions": [
-            "xxxxxx"
-        ],
-        "temp": "xxxxxx",
-        "cooktime": "xxxxxx"
-    },
     "paska-andy": {
         "name": "Paska (Andy)",
         "author": "andy",
