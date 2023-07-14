@@ -32,6 +32,223 @@
         "temp": "xxxxxx",
         "cooktime": "xxxxxx"
     },
+    "paska-andy": {
+        "name": "Paska (Andy)",
+        "author": "andy",
+        "categories": [
+            "bread"
+        ],
+        "image": "pascha1.jpg",
+        "ingredients": [
+            {
+                "quantity": 6,
+                "unit": "c",
+                "food": "flour",
+                "style": "sifted"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 1,
+                "unit": "T",
+                "food": "salt"
+            },
+            {
+                "quantity": 2,
+                "unit": "packets",
+                "food": "rapid rise yeast"
+            },
+            {
+                "quantity": 2,
+                "food": "eggs"
+            },
+            {
+                "quantity": 2,
+                "food": "egg whites"
+            },
+            {
+                "quantity": 1,
+                "unit": "stick",
+                "food": "butter",
+                "style": "melted"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "sour cream"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "c",
+                "food": "oil"
+            },
+            {
+                "quantity": 2.5,
+                "unit": "c",
+                "food": "milk",
+                "style": "scalded"
+            }
+        ],
+        "instructions": [
+            "Combine dry ingredients in a bowl",
+            "Add eggs to dry mixture and mix on medium for 2 minutes, then on high for 2 minutes",
+            "Add flour until it is sticky, but comes away from the bowl",
+            "Let raise",
+            "Brush egg whites and water on bread before baking",
+            "Bake at 350° F for 30 minutes"
+        ],
+        "temp": "350",
+        "cooktime": "30"
+    },
+    "paska-baba": {
+        "name": "Paska (Baba)",
+        "author": "baba",
+        "categories": [
+            "bread"
+        ],
+        "image": "pascha2.jpg",
+        "ingredients": [
+            {
+                "quantity": 4,
+                "unit": "packets",
+                "food": "yeast"
+            },
+            {
+                "quantity": 2,
+                "unit": "c",
+                "food": "water",
+                "style": "warm"
+            },
+            {
+                "quantity": 2,
+                "unit": "T",
+                "food": "sugar"
+            },
+            {
+                "quantity": 5.25,
+                "unit": "lb",
+                "food": "flour"
+            },
+            {
+                "quantity": 0.75,
+                "unit": "c",
+                "food": "butter",
+                "style": "melted"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 1,
+                "unit": "qt",
+                "food": "milk"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "pt",
+                "food": "sour cream"
+            },
+            {
+                "food": "salt"
+            }
+        ],
+        "instructions": [
+            "Mix yeast and sugar in warm water, 4 packets and 2T to 1 cup",
+            "Once dissolved, add a cup of water and cup of flour per 4 packets of yeast",
+            "Mix this real loose and let it raise until spongy, about 2-3 hours, until bubbly",
+            "After this raises, add the remaining ingredients to the mixture",
+            "Mix this good. If it feels loose, add a handful of flour until it doesn't stick to hands",
+            "Punch down and raise again",
+            "Cut it and put in pan and let raise again",
+            "Bake at 350° F for 30 minutes"
+        ],
+        "temp": "350",
+        "cooktime": "30"
+    },
+    "paska-lorraine": {
+        "name": "Paska (Lorraine)",
+        "author": "lorraine",
+        "categories": [
+            "bread"
+        ],
+        "image": "pascha3.jpg",
+        "ingredients": [
+            {
+                "quantity": 5,
+                "unit": "c",
+                "food": "milk",
+                "style": "scalded"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "c",
+                "food": "sugar"
+            },
+            {
+                "quantity": 2,
+                "unit": "sticks",
+                "food": "butter",
+                "style": "melted"
+            },
+            {
+                "quantity": 12,
+                "unit": "c",
+                "food": "flour"
+            },
+            {
+                "quantity": 1,
+                "unit": "t",
+                "food": "salt"
+            },
+            {
+                "quantity": 1,
+                "unit": "c",
+                "food": "sour cream"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "oil"
+            },
+            {
+                "quantity": 3,
+                "unit": "packets",
+                "food": "yeast"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "c",
+                "food": "water",
+                "style": "lukewarm"
+            },
+            {
+                "quantity": 1,
+                "unit": "T",
+                "food": "sugar"
+            },
+            {
+                "quantity": 6,
+                "food": "egg yolks",
+                "style": "beaten"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "c",
+                "food": "light raisins",
+                "style": "optional"
+            }
+        ],
+        "instructions": [
+            "Dissolve yeast and sugar in"
+        ],
+        "temp": "xxxxxx",
+        "cooktime": "xxxxxx"
+    },
     "watergate-salad": {
         "name": "watergate salad",
         "author": "julie",
